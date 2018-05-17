@@ -33,3 +33,42 @@
         display: none;
     }
 }
+
+/* Главная */
+.home-page {
+    text-align: center;
+}
+
+.back-image img {
+    height: 30%;
+}
+
+
+.input-file {
+    position: relative;
+    margin: 60px 60px 0
+}
+
+/* Добавление файла */
+.input-file .input-group-addon {
+    border: 0px;
+    padding: 0px;
+}
+
+.input-file .input-group-addon .btn {
+    border-radius: 0 4px 4px 0
+}
+.input-file .input-group-addon input {
+    cursor: pointer;
+    position: absolute;
+    width: 72px;
+    z-index: 2;
+    height: 300px;
+    top: 0;
+    right: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    background-color: transparent;
+    color: transparent;
+}
